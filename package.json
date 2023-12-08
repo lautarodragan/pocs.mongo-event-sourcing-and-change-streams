@@ -1,0 +1,14 @@
+{
+  "name": "mongo-playground",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "updateManyWithQueries": "node updateManyWithQueries.js",
+    "updateManyWithFunction": "node updateManyWithFunction.js",
+    "updateManyWithChangeStreams": "node updateManyWithFunction.js"
+  },
+  "dependencies": {
+    "mongodb": "^5.7.0"
+  }
+}
